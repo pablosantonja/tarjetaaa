@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Tarjetes </title>
+    <style type="text/css">
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        img{
+            width: 100%;
+        }
+        body{
+            background: linear-gradient(35deg, green,yellow );
+        }
+        .contenidor{
+            display: flex;
+            padding: 2em;
+            justify-content: center;
+
+        }
+        .grup{
+            width: 28em;
+            margin: 1em;
+            background: rgba(240, 240, 240, 0.6);
+            border-radius: 20px ;
+        }
+        .cont_img{
+            border-radius: 20px;
+            height: 300px;
+            background: red;
+        }
+        .cont_img img{
+            height: 100%;
+            object-fit: cover;
+            object-position: center center;
+            border-radius: 20px ;
+        }
+        header{
+            display: flex;
+            align-items: baseline;
+            justify-content: space-between;
+            color: purple;
+            margin: 0.5em, 1em;
+            padding: 0 0 0 2em 0;
+            border-bottom: 1px solid white;
+        }
+        h3{
+            font-weight:600;
+            font-style: normal;
+        }
+        h4{
+            font-style: italic;
+            font-weight: 500;
+        }
+        .cont_txt{
+            margin: 1em 1em 0.5em 1em;
+            color: black;
+            text-align: justify;
+            hyphens: auto;
+            font-size: 0.9em;
+            line-height: 1.2;
+           
+            
+        }
+        .peu_foto{
+
+                background: blue;
+                color: white;
+                font-style: italic;
+                font-size: 0.9em;
+                margin: 1em 1em 0.5em 1em;
+                border-radius: 20px ;
+
+                
+            }
+        @media (max-width:600px){            
+            .body{
+                font-size: 14px;
+            }
+            .contenidor{
+                flex-direction: column;
+            }
+            .grup{
+                width: 30em;
+            
+            }
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="contenidor">
+        <div class="grup">
+            <div class="cont_img">
+                <img src="img/imatge%202.jpg" alt="Isidro Ferrer">
+            </div>
+            <header>
+                <h3>Isidro Ferrer</h3>
+                <h4>Fecha</h4>
+            </header>
+            <div class="cont_txt">
+                <p>Uno de sus últimos actos públicos fue el 24 de septiembre de 2009, cuando participó en la presentación al Museo Valenciano de la Ilustración y la Modernidad (MuVim) de la exposición Suma y sigue del diseño en la Comunidad Valenciana, de la cual era comisario. Precisamente, el director del museo, Román de Calle, expresó al morir Bascuñán que con la muerte de éste, el diseño valenciano quedaba de luto.</p>
+                <p>Uno de sus últimos actos públicos fue el 24 de septiembre de 2009, cuando participó en la presentación al Museo Valenciano de la Ilustración y la Modernidad (MuVim) de la exposición Suma y sigue del diseño en la Comunidad Valenciana, de la cual era comisario. Precisamente, el director del museo, Román de Calle, expresó al morir Bascuñán que con la muerte de éste, el diseño valenciano quedaba de luto.</p>
+            </div>
+            <div class="peu_foto">
+                <p>Obra </p>
+            </div>
+        </div>
+        <div class="grup">
+            <div class="cont_img">
+                <img src="img/imatge%201.jpg" alt="Paco">
+            </div>
+            <header>
+                <h3>Paco </h3>
+                <h4>Fecha</h4>
+            </header>
+            <div class="cont_txt">
+                <p>Uno de sus últimos actos públicos fue el 24 de septiembre de 2009, cuando participó en la presentación al Museo Valenciano de la Ilustración y la Modernidad (MuVim) de la exposición Suma y sigue del diseño en la Comunidad Valenciana, de la cual era comisario. Precisamente, el director del museo, Román de Calle, expresó al morir Bascuñán que con la muerte de éste, el diseño valenciano quedaba de luto.</p>
+                <p>Uno de sus últimos actos públicos fue el 24 de septiembre de 2009, cuando participó en la presentación al Museo Valenciano de la Ilustración y la Modernidad (MuVim) de la exposición Suma y sigue del diseño en la Comunidad Valenciana, de la cual era comisario. Precisamente, el director del museo, Román de Calle, expresó al morir Bascuñán que con la muerte de éste, el diseño valenciano quedaba de luto.</p>
+            </div>
+            <div class="peu_foto">
+                <p>Obra</p>
+            </div>
+        </div>
+    </div>    
+</body>
+</html>
